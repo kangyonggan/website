@@ -8,9 +8,7 @@
         </keep-alive>
       </router-view>
     </div>
-    <Footer>
-      footer1
-    </Footer>
+    <Footer />
   </div>
 </template>
 

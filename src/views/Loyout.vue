@@ -28,6 +28,6 @@
   }
 
   .main {
-    min-height: calc(100vh - 174px);
+    min-height: calc(100vh - 146px);
   }
 </style>

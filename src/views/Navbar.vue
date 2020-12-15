@@ -38,27 +38,27 @@
                     },
                     {
                         code: '/article',
-                        value: '文章'
+                        value: '公司介绍'
                     },
                     {
                         code: '/novel',
-                        value: '书籍'
+                        value: '公司业务'
                     },
                     {
                         code: '/album',
-                        value: '相册'
+                        value: '新闻中心'
                     },
                     {
                         code: '/video',
-                        value: '视频'
+                        value: '人力资源'
                     },
                     {
                         code: '/tools',
-                        value: '工具'
+                        value: '专业服务'
                     },
                     {
                         code: '/about',
-                        value: '关于'
+                        value: '关于我们'
                     }]
             }
         },
@@ -91,22 +91,24 @@
       float: left;
       list-style: none;
       margin-top: 0;
+      margin-left: 30px;
 
       li {
         float: left;
         height: 70px;
         line-height: 70px;
         text-align: center;
-        margin-right: 20px;
+        margin-right: 10px;
 
         a {
           color: #333;
           text-decoration: none;
-          padding: 12px;
+          padding: 10px 20px;
         }
 
         a.active {
-          border-bottom: 2px solid #f68136;
+          background: #0069cb;
+          color: #fff;
         }
       }
     }
